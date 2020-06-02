@@ -31,5 +31,5 @@ jobs:
     - name: Installing surge
       run: npm install --global surge
     - name: Deploying using surge
-      run: surge ./ dispensable-existence.surge.sh --token $ {{ secrets.SECRET_TOKEN}}
+      run: surge ./ dispensable-existence.surge.sh --token $ {{ secrets.SURGE_TOKEN}}
       
